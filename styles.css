@@ -92,10 +92,12 @@ body {
 
 .navbar_content-wrapper,
 .hero_content-wrapper,
-.intro_content-wrapper,
+.info_content-wrapper,
 .quote_content-wrapper,
-.cta_content-wrapper {
-    max-width: 70rem;
+.cta_content-wrapper,
+.footer_content-wrapper {
+    margin: auto;
+    max-width: 60rem;
 }
 
 .navbar_content-wrapper {
