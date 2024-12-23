@@ -11,30 +11,35 @@
 </head>
 
 <body>
-    <!--navbar-section-->
-    <nav class="navbar">
-        <container>
-            <div class="navbar_content-wrapper">
-                <h5 class="nav-logo">Header Logo</h5>
-                <div class="nav-links">
-                    <ul>
-                        <li><a href="#">header link one</a</li>
-                        <li><a href="#">header link two</a></li>
-                        <li><a href="#">header link three</a></li>
-                    </ul>
+    <header>
+        <!--navbar-section-->
+        <nav class="navbar">
+            <container>
+                <div class="navbar-content">
+                    <h5 class="nav-logo">Header Logo</h5>
+                    <div class="nav-links">
+                        <ul>
+                            <li><a href="#">header link one</a</li>
+                            <li><a href="#">header link two</a></li>
+                            <li><a href="#">header link three</a></li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
-        </container>
-    </nav>
+            </container>
+        </nav>
+    </header>
     <main>
         <!--hero-section>-->
         <section class="hero-section">
-            <container>
-                <div class="hero_content-wrapper">
-                    <h1>This website is awesome</h1>
-                    <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
-                    <button>Sign up</button>
-                </div>
+            <container class="hero-content">
+                    <div class="hero_content-wrapper">
+                        <h1>This website is awesome</h1>
+                        <p class="hero-text">This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
+                        <button class="hero-button">Sign up</button>
+                    </div>
+                    <div class="hero-img">
+                        <p>this is a placeholder for an image</p>
+                    </div>
             </container>
         </section>
         <!--info-section-->
@@ -71,9 +76,11 @@
         </main>
         <!--footer-section-->
         <footer  class="footer">
-            <div class="footer_content-wrapper">
-                <p>Copyright © The Odin Project 2024</p>
-            </div>
+            <container>
+                <div class="footer_content-wrapper">
+                    <p>Copyright © The Odin Project 2024</p>
+                </div>
+            </container>
         </footer>
 </body>
 </html>
