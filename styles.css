@@ -95,7 +95,8 @@ body {
 
 .navbar-content,
 .hero-content,
-.info-content {
+.info-content,
+.quote-content {
     margin: auto;
     max-width: 60rem;
 }
@@ -234,6 +235,39 @@ body {
     text-align: center;
     max-width: 9.10rem;
     color: gray;
+}
+
+/* quote-section-specific-styles */
+
+.quote-section {
+    background-color: #e5e7eb;
+    color: #1f2937;
+}
+
+.quote-content {
+    display: flex;
+    flex-direction: column;
+    padding: 6rem 0;
+}
+
+.quote_content-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: .5rem;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: 300;
+    max-width: 48rem;
+}
+
+.quote-author {
+    align-self: flex-end;
+    font-size: 24px;
+    padding-right: 7rem;
 }
 
 /* footer-section-specific-styles */
