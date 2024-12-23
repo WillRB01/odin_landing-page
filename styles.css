@@ -83,18 +83,27 @@ body {
 
 /* page-styles */
 
-.navbar {
-    padding: 20px;
-}
-
 .navbar,
-.hero,
+.hero-section,
 .footer {
     background-color: #1f2937;
     color: #e5e7eb;
 }
 
-.navbar {
+.navbar_content-wrapper,
+.hero_content-wrapper,
+.intro_content-wrapper,
+.quote_content-wrapper,
+.cta_content-wrapper {
+    max-width: 70rem;
+}
+
+.navbar_content-wrapper {
+    padding: 20px;
+    display: flex;
+}
+
+.navbar_content-wrapper {
     display: flex;
     justify-content: space-between;
 }
