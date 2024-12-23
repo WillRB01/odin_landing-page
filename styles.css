@@ -96,9 +96,14 @@ body {
 .navbar-content,
 .hero-content,
 .info-content,
-.quote-content {
+.quote-content,
+.cta-section {
     margin: auto;
     max-width: 60rem;
+}
+
+button {
+    border: 0;
 }
 
 /* nav-section-specific-styles */
@@ -175,7 +180,6 @@ body {
     background-color: #3882f6;
     color: #e5e7eb;
     padding: .5rem 1.75rem;
-    border: 0;
     border-radius: 8px;
     font-weight: 700;
 }
@@ -268,6 +272,45 @@ body {
     align-self: flex-end;
     font-size: 24px;
     padding-right: 7rem;
+}
+
+/* cta-section-specific-styles */
+
+.cta-section {
+    background-color: white;
+    padding: 6rem 0rem;
+}
+
+.cta_content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4rem;
+    background-color: #3882f6;
+    border-radius: 12px;
+    padding: 3rem 6rem;
+}
+
+.cta_content-wrapper {
+    display: flex;
+    flex-direction: column;
+    color: #e5e7eb;
+}
+
+.cta_content-wrapper > h5 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.cta-button {
+    flex-shrink: 0;
+    color: #e5e7eb;
+    background-color: #3882f6;
+    border: solid 2px #e5e7eb;
+    border-radius: 8px;
+    padding: .5rem 1.75rem;
+    font-weight: 700;
 }
 
 /* footer-section-specific-styles */
