@@ -10,12 +10,8 @@ But I'm glad I did - I've gotten better from getting out of my comfort zone and 
 
 As for the skills I got to practice:
 
--Writing cleaner code
--Making website layouts
--Importing external fonts
--Keeping my code organized
--Staying consistent with (my own) css naming convention
--Getting more comfortable with flexbox and css as a whole
+Writing cleaner code, making website layouts, importing external fonts, keeping my code organized, staying consistent with (my own) 
+css naming convention, getting more comfortable with flexbox and css as a whole.
 
 I'm proud with the outcome and although the site isn't responsive, making a layout is the first step to getting there!
 
